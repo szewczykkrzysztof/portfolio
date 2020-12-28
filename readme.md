@@ -14,5 +14,7 @@ You can find here about my development skills and projecs made by me.
 
 `vanilla css/scss` - page styling
 
-`js` - script to fetch my projects info from `github'
+`js` - script to fetch my projects info from `github`
+
+`webpack` - project boundling
 
