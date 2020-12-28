@@ -8,10 +8,14 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .header {
+  &__graphics {
+    display: flex;
+    justify-content: center;
+  }
   &__photo {
     border-radius: 50%;
   }
