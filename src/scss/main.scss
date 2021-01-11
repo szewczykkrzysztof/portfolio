@@ -25,15 +25,19 @@ body {
     letter-spacing: 0em;
   }
   &__graphics {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 298px 1fr;
+  }
+  &__hello {
+    grid-column-start: 3;
   }
   &__photo {
+    grid-column-start: 2;
     margin: 50px 0 72px;
-    border: 24px solid #F6F9FD;
+    border: 24px solid #f6f9fd;
     border-radius: 50%;
   }
   &__tail {
-    margin:0 0 0 12px;
+    margin: 0 0 0 12px;
   }
 }
