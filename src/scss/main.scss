@@ -24,6 +24,17 @@ body {
     font-weight: 700;
     letter-spacing: 0em;
   }
+  &__description {
+    display: flex;
+    &::before {
+      content: url(../assets/img/open_bracket.svg);
+      float: left;
+    }
+    &::after {
+      content: url(../assets/img/close_bracket.svg);
+      float: right;
+    }
+  }
   &__graphics {
     display: grid;
     grid-template-columns: 1fr 298px 1fr;
