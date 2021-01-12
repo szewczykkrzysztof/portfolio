@@ -49,10 +49,31 @@ body {
   &__mainHeading {
     grid-column: 2;
     grid-row: 1;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #234361;
+    margin: 0;
+    &--highlight {
+      color: blue;
+    }
   }
   &__welcome {
+    margin: 0;
     grid-column: 2;
     grid-row: 2;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #425a70;
+    a {
+      color: #4DA8FF;
+      font-weight: bold;
+    }
   }
   &__photo {
     grid-column-start: 2;
