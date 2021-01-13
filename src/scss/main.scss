@@ -117,5 +117,12 @@ body {
   }
   &__emoticon {
     font-size: 64px;
+    text-align: center;
+    margin: 0 0 16px;
+  }
+  &__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
 }
