@@ -9,6 +9,7 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: "Nunito", sans-serif;
+  color: #425a70;
 }
 
 .header {
@@ -139,6 +140,23 @@ body {
     content: "\2713";
   }
   &__wantLearn::marker {
-    content: '\00B7';
+    content: "\00B7";
+  }
+}
+
+.projects {
+  &__heading {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #234361;
+  }
+  &__about {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    max-width: 782px;
   }
 }
