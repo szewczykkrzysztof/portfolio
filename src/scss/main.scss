@@ -144,7 +144,7 @@ body {
   }
 }
 
-.projects {
+.myProjects {
   &__heading {
     font-weight: bold;
     font-size: 48px;
@@ -158,5 +158,10 @@ body {
     line-height: 40px;
     text-align: center;
     max-width: 782px;
+  }
+  &__list {
+    max-width: 1184px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
