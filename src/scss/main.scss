@@ -165,3 +165,17 @@ body {
     grid-template-columns: 1fr 1fr;
   }
 }
+
+.githubProject {
+  box-sizing: border-box;
+  background: #212528;
+  border-radius: 16px;
+  border-top:40px solid black;
+  padding: 1em 2em;
+  position: relative;
+  &__circles {
+    position: absolute;
+    top: -24px;
+    left: 16px;
+  }
+}
