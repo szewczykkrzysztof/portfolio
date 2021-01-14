@@ -210,5 +210,11 @@ footer {
 
 .contact {
   max-width: 580px;
+  height: 48px;
   margin: 128px auto 176px;
+  display: flex;
+  justify-content: space-between;
+  .mailTo__button {
+    margin: 0 0;
+  }
 }
