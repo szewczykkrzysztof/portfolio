@@ -170,12 +170,26 @@ body {
   box-sizing: border-box;
   background: #212528;
   border-radius: 16px;
-  border-top:40px solid black;
-  padding: 1em 2em;
+  border-top: 40px solid black;
+  padding: 18px 48px 58px;
   position: relative;
   &__circles {
     position: absolute;
     top: -24px;
     left: 16px;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    font-family: Roboto Mono;
+    color: #808082;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  &__name {
+    font-weight: bold;
+    color: #FFFFFF;
   }
 }
