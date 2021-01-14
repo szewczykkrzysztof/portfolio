@@ -145,6 +145,7 @@ body {
 }
 
 .myProjects {
+  padding: 48px 128px 176px;
   &__heading {
     font-weight: bold;
     font-size: 48px;
@@ -153,6 +154,7 @@ body {
     color: #234361;
   }
   &__about {
+    margin: 40px auto 128px;
     font-weight: 300;
     font-size: 20px;
     line-height: 40px;
@@ -192,4 +194,9 @@ body {
     font-weight: bold;
     color: #FFFFFF;
   }
+}
+
+footer {
+  width: 100%;
+  background-color: #DBEAF7;
 }
