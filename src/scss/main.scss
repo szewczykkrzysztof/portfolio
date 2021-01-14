@@ -192,11 +192,23 @@ body {
   }
   &__name {
     font-weight: bold;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
 footer {
   width: 100%;
-  background-color: #DBEAF7;
+  background-color: #dbeaf7;
+  text-align: center;
+  font-weight: 300;
+  font-size: 20px;
+  h1 {
+    margin: 80px auto 40px;
+    font-size: 48px;
+  }
+}
+
+.contact {
+  max-width: 580px;
+  margin: 128px auto 176px;
 }
