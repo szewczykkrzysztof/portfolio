@@ -9,14 +9,14 @@ body {
   justify-content: center;
   min-height: 100vh;
   font-family: "Nunito", sans-serif;
-  color: #425a70;
+  color: $defaultText;
 }
 
 .header {
   margin: 80px auto 176px;
   max-width: 982px;
   &__cloud {
-    background: blue;
+    background: $blue;
     color: white;
     height: 40px;
     border-radius: 16px;
@@ -56,10 +56,10 @@ body {
     line-height: 40px;
     letter-spacing: 0em;
     text-align: center;
-    color: #234361;
+    color: $darkText;
     margin: 0;
     &--highlight {
-      color: blue;
+      color: $blue;
     }
   }
   &__welcome {
@@ -72,7 +72,7 @@ body {
     text-align: center;
     color: #425a70;
     a {
-      color: #4da8ff;
+      color: $linkColor;
       font-weight: bold;
     }
   }
@@ -93,7 +93,7 @@ body {
   font-size: 20px;
   line-height: 40px;
   width: fit-content;
-  background: #4da8ff;
+  background: $linkColor;
   color: white;
   border-radius: 24px;
   display: block;
@@ -104,7 +104,7 @@ body {
 
 .mySkills {
   box-sizing: border-box;
-  background: blue;
+  background: $blue;
   color: white;
   width: 100%;
   padding: 80px 128px 176px;
@@ -134,7 +134,7 @@ body {
   }
   &__workingKonwledge::marker {
     content: "\2713 ";
-    color: #06c847;
+    color: $green;
   }
   &__knowSomething::marker {
     content: "\2713";
@@ -151,7 +151,7 @@ body {
     font-size: 48px;
     line-height: 56px;
     text-align: center;
-    color: #234361;
+    color: $darkText;
   }
   &__about {
     margin: 40px auto 128px;
@@ -170,7 +170,7 @@ body {
 
 .githubProject {
   box-sizing: border-box;
-  background: #212528;
+  background: $grey2;
   border-radius: 16px;
   border-top: 40px solid black;
   padding: 18px 48px 58px;
@@ -184,7 +184,7 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     font-family: Roboto Mono;
-    color: #808082;
+    color: $grey4;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -198,7 +198,7 @@ body {
 
 footer {
   width: 100%;
-  background-color: #dbeaf7;
+  background-color: $blueLight;
   text-align: center;
   font-weight: 300;
   font-size: 20px;
