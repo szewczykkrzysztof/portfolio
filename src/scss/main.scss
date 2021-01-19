@@ -225,6 +225,9 @@ body {
   border-top: 40px solid black;
   padding: 18px 48px 58px;
   position: relative;
+  @media screen and (max-width: $mobileViewBreakout) {
+    padding: 24px 16px 48px;
+  }
   &__circles {
     position: absolute;
     top: -24px;
@@ -239,6 +242,9 @@ body {
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
+    @media screen and (max-width: $mobileViewBreakout) {
+      font-size: 13px;
+    }
     a {
       color: $consoleLink;
     }
