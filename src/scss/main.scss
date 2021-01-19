@@ -191,11 +191,12 @@ body {
 }
 
 .myProjects {
-  padding: 48px 128px 176px;
+  padding: 80px 128px 176px;
   @media screen and (max-width: $mobileViewBreakout) {
     padding: 64px 16px 88px;
   }
   &__heading {
+    margin-top: 0;
     font-weight: bold;
     font-size: 48px;
     line-height: 56px;
@@ -216,6 +217,7 @@ body {
     @media screen and (max-width: $mobileViewBreakout) {
       font-size: 16px;
       line-height: 32px;
+      margin: 32px auto 46px;
     }
   }
   &__list {
