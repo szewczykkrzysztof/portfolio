@@ -6,7 +6,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -39,6 +41,9 @@ body {
     letter-spacing: 0em;
     width: -moz-fit-content;
     width: fit-content;
+    &::after {
+      content: "👋";
+    }
   }
   &__description {
     @media screen and (min-width: $mobileViewBreakout) {
