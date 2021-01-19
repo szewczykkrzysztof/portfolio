@@ -262,22 +262,39 @@ footer {
   text-align: center;
   font-weight: 300;
   font-size: 20px;
+  padding: 80px 16px 176px;
+  @media screen and (max-width: $mobileViewBreakout) {
+    font-size: 16px;
+    line-height: 32px;
+    padding: 64px 16px 88px;
+  }
   h1 {
-    margin: 80px auto 40px;
+    margin: 0 auto 40px;
     font-size: 48px;
+    @media screen and (max-width: $mobileViewBreakout) {
+      font-size: 36px;
+    }
   }
 }
 
 .contact {
   max-width: 580px;
   height: 48px;
-  margin: 128px auto 176px;
+  margin: 128px auto 0;
   display: flex;
   justify-content: space-between;
+  @media screen and (max-width: $mobileViewBreakout) {
+    height: 160px;
+    flex-direction: column;
+    margin: 56px auto 0;
+  }
   .mailTo__button {
     margin: 0 0;
   }
-  &__socialMedia a {
-    margin-right: 24px;
+  &__socialMedia {
+    width: 192px;
+    margin:0 auto 0;
+    display: flex;
+    justify-content: space-between;
   }
 }
