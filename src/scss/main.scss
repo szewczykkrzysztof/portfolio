@@ -1,6 +1,13 @@
 @import "~normalize.css";
 
 @import "_variables";
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
 
 body {
   display: flex;
@@ -131,7 +138,6 @@ body {
 }
 
 .mySkills {
-  box-sizing: border-box;
   background: $blue;
   color: white;
   width: 100%;
@@ -219,7 +225,6 @@ body {
 }
 
 .githubProject {
-  box-sizing: border-box;
   background: $grey2;
   border-radius: 16px;
   border-top: 40px solid black;
@@ -293,7 +298,7 @@ footer {
   }
   &__socialMedia {
     width: 192px;
-    margin:0 auto 0;
+    margin: 0 auto 0;
     display: flex;
     justify-content: space-between;
   }
