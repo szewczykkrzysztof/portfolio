@@ -234,6 +234,7 @@ body {
     left: 16px;
   }
   &__grid {
+    margin-top: 24px;
     display: grid;
     grid-template-columns: auto 1fr;
     font-family: Roboto Mono;
