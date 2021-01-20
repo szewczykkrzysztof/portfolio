@@ -16,7 +16,24 @@ fetch("https://api.github.com/users/szewczykkrzysztof/repos?sort=created")
         homepage = html_url;
       }
 
-     
+      // add new container with project description
+      myProjects.innerHTML += `<div class="githubProject">
+    <img
+      src="../assets/img/circles_top.svg"
+      class="githubProject__circles"
+    />
+    <img src="../assets/img/Github-Icon.svg" />
+    <div class="githubProject__grid">
+      <span>project:</span>
+      <span class="githubProject__name">${name}</span>
+      <span>description:</span>
+      <span>${description}</span>
+      <span>demo:</span>
+      <a href=${homepage}>&#60 see here &#62</see></a>
+      <span>github:</span>
+      <a href=${html_url}>&#60 source code &#62</a>
+    </div>
+  </div>`;
     }
   })
   .catch(console.error("Błąd w pobieraniu danych z API Github"));
