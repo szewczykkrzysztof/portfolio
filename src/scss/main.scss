@@ -117,14 +117,18 @@ body {
   &__photo {
     grid-column-start: 2;
     margin: 50px 0 72px;
-    border: 24px solid #f6f9fd;
+    border: 24px solid $blueLightest;
     border-radius: 50%;
     @media screen and (max-width: $mobileViewBreakout) {
       width: 96px;
       height: 96px;
       display: block;
       margin: 0 auto;
-      border: 16px solid #f6f9fd;
+      border: 16px solid $blueLightest;
+    }
+    &:hover {
+      transition: all 5s ease-in;
+      border: 24px solid $blue;
     }
   }
   &__tail {
