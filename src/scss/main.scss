@@ -2,6 +2,8 @@
 
 @import "_variables";
 
+@import "./modules/hello.scss";
+
 html {
   box-sizing: border-box;
 }
@@ -43,6 +45,8 @@ body {
     width: fit-content;
     &::after {
       content: "👋";
+      display: inline-block;
+      animation: shakeHand 2.5s ease-in-out 2;
     }
   }
   &__description {
