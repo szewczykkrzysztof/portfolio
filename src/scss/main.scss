@@ -179,6 +179,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
     @media screen and (max-width: $mobileViewBreakout) {
       flex-direction: column;
     }
