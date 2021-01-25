@@ -255,6 +255,7 @@ body {
   position: relative;
   @media screen and (max-width: $mobileViewBreakout) {
     padding: 24px 16px 48px;
+    margin-bottom: 24px;
   }
   &__circles {
     position: absolute;
