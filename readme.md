@@ -1,4 +1,4 @@
-![cover](https://)
+![cover](https://szewczykkrzysztof.github.io/portfolio/cover.png)
 
 # Portfolio
 
