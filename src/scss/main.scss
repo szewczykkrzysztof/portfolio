@@ -195,14 +195,14 @@ body {
     list-style: none;
     padding-left: 16px;
   }
-  &__workingKonwledge::marker {
+  &__workingKonwledge ul li::marker {
     content: "\2713 ";
     color: $green;
   }
-  &__knowSomething::marker {
+  &__knowSomething ul li::marker {
     content: "\2713";
   }
-  &__wantLearn::marker {
+  &__wantLearn ul li::marker {
     content: "\00B7";
   }
 }
