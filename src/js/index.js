@@ -19,10 +19,10 @@ fetch("https://api.github.com/users/szewczykkrzysztof/repos?sort=created")
       // add new container with project description
       myProjects.innerHTML += `<div class="githubProject">
     <img
-      src="../public/circles_top.svg"
+      src="./circles_top.svg"
       class="githubProject__circles"
     />
-    <img src="../public/Github-Icon.svg" />
+    <img src="./Github-Icon.svg" />
     <div class="githubProject__grid">
       <span>project:</span>
       <span class="githubProject__name">${name}</span>
