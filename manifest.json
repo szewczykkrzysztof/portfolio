@@ -1,8 +1,8 @@
 {
-  "name": "WTF: PWA",
-  "short_name": "WTF: PWA",
-  "theme_color": "#2D2241",
-  "background_color": "#2D2241",
+  "name": "Kris Szewczyk Portfolio",
+  "short_name": "KS : Portfolio",
+  "theme_color": "#eebd62",
+  "background_color": "#eebd62",
   "display": "standalone",
   "orientation": "portrait",
   "scope": "/wtf-webpack-starter/",
