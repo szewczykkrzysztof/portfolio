@@ -34,90 +34,94 @@
     />
   </head>
   <body>
-    <header class="header">
-      <section class="header__graphics">
-        <img
-          src="../assets/img/profil_slack.jpg"
-          alt="Kris Face"
-          class="header__photo"
-        />
-        <div class="header__hello">
-          <div class="header__cloud">Hey there!</div>
-          <img class="header__tail" src="../assets/img/ogonek.svg" />
+    <main>
+      <header class="header">
+        <div class="header__graphics">
+          <img
+            src="../assets/img/profil_slack.jpg"
+            alt="Kris Face"
+            class="header__photo"
+          />
+          <div class="header__hello">
+            <div class="header__cloud">Hey there!</div>
+            <img class="header__tail" src="../assets/img/ogonek.svg" />
+          </div>
+        </div>
+        <article class="header__description">
+          <h1 class="header__mainHeading">
+            My name is Kris and I'm an aspiring<br />
+            <span class="header__mainHeading--highlight"
+              >Frontend developer</span
+            >
+            and Pratchett's Discworld devotee
+          </h1>
+          <p class="header__welcome">
+            You might be interested in checking the list of
+            <a href="#skills">my skills</a>. Don’t forget to have a glimpse at
+            <a href="#projects">my projects</a>. Currently I’m looking for a new
+            challenges so if you have one -
+            <a href="mailto:szewczykris@gmail.com">contact me</a> 😊
+          </p>
+        </article>
+        <button
+          class="mailTo__button"
+          onclick="location.href='mailto:szewczykris@gmail.com';"
+        >
+          szewczykris@gmail.com
+        </button>
+      </header>
+      <section class="mySkills" id="skills">
+        <h1 class="mySkills__heading">My Skills</h1>
+        <div class="mySkills__flex">
+          <article class="mySkills__article mySkills__workingKonwledge">
+            <p class="mySkills__emoticon">💪</p>
+            <h2>Working knowledge</h2>
+            <ul>
+              <li>Semantic HMTL</li>
+              <li>Flexbox</li>
+              <li>CSS Grid</li>
+              <li>Markdown</li>
+              <li>Forms</li>
+              <li>SASS</li>
+              <li>JS: Local Storage</li>
+              <li>JS: DOM Manipulation</li>
+            </ul>
+          </article>
+          <article class="mySkills__article mySkills__knowSomething">
+            <p class="mySkills__emoticon">🤔</p>
+            <h2>Know something about</h2>
+            <ul>
+              <li>Javascript ES6</li>
+              <li>CSS animations</li>
+              <li>Npm script</li>
+              <li>Webpack</li>
+              <li>Progressive web apps</li>
+              <li>Accessibilty</li>
+              <li>Git</li>
+              <li>Use API</li>
+            </ul>
+          </article>
+          <article class="mySkills__article mySkills__wantLearn">
+            <p class="mySkills__emoticon">🎓</p>
+            <h2>Want to learn</h2>
+            <ul>
+              <li>React</li>
+              <li>Node JS</li>
+            </ul>
+          </article>
         </div>
       </section>
-      <section class="header__description">
-        <h1 class="header__mainHeading">
-          My name is Kris and I'm an aspiring<br />
-          <span class="header__mainHeading--highlight">Frontend developer</span>
-          and Pratchett's Discworld devotee
-        </h1>
-        <p class="header__welcome">
-          You might be interested in checking the list of
-          <a href="#skills">my skills</a>. Don’t forget to have a glimpse at
-          <a href="#projects">my projects</a>. Currently I’m looking for a new
-          challenges so if you have one -
-          <a href="mailto:szewczykris@gmail.com">contact me</a> 😊
+      <section class="myProjects" id="projects">
+        <h1 class="myProjects__heading">Recent projects</h1>
+        <p class="myProjects__about">
+          I started my frontend developer path in 2020. Since then, I’ve built
+          some projects. Here’s the list of the things I’ve done so far.
         </p>
+        <div class="myProjects__list myProjects__list--js">
+          <!-- Here are generated my projects info -->
+        </div>
       </section>
-      <button
-        class="mailTo__button"
-        onclick="location.href='mailto:szewczykris@gmail.com';"
-      >
-        szewczykris@gmail.com
-      </button>
-    </header>
-    <section class="mySkills" id="skills">
-      <h1 class="mySkills__heading">My Skills</h1>
-      <div class="mySkills__flex">
-        <article class="mySkills__article mySkills__workingKonwledge">
-          <p class="mySkills__emoticon">💪</p>
-          <h2>Working knowledge</h2>
-          <ul>
-            <li>Semantic HMTL</li>
-            <li>Flexbox</li>
-            <li>CSS Grid</li>
-            <li>Markdown</li>
-            <li>Forms</li>
-            <li>SASS</li>
-            <li>JS: Local Storage</li>
-            <li>JS: DOM Manipulation</li>
-          </ul>
-        </article>
-        <article class="mySkills__article mySkills__knowSomething">
-          <p class="mySkills__emoticon">🤔</p>
-          <h2>Know something about</h2>
-          <ul>
-            <li>Javascript ES6</li>
-            <li>CSS animations</li>
-            <li>Npm script</li>
-            <li>Webpack</li>
-            <li>Progressive web apps</li>
-            <li>Accessibilty</li>
-            <li>Git</li>
-            <li>Use API</li>
-          </ul>
-        </article>
-        <article class="mySkills__article mySkills__wantLearn">
-          <p class="mySkills__emoticon">🎓</p>
-          <h2>Want to learn</h2>
-          <ul>
-            <li>React</li>
-            <li>Node JS</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-    <section class="myProjects" id="projects">
-      <h1 class="myProjects__heading">Recent projects</h1>
-      <p class="myProjects__about">
-        I started my frontend developer path in 2020. Since then, I’ve built
-        some projects. Here’s the list of the things I’ve done so far.
-      </p>
-      <div class="myProjects__list myProjects__list--js">
-        <!-- Here are generated my projects info -->
-      </div>
-    </section>
+    </main>
     <footer>
       <h1>Contact me</h1>
       <p>
