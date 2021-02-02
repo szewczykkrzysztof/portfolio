@@ -1,0 +1,67 @@
+.mySkills {
+  background: $blue;
+  color: white;
+  width: 100%;
+  padding: 80px 128px 176px;
+  @media screen and (max-width: $mobileViewBreakout) {
+    padding: 64px 16px 88px;
+  }
+
+  &__emoticon {
+    font-size: 64px;
+    text-align: center;
+    margin: 0 0 16px;
+  }
+
+  &__flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1184px;
+    width: 100%;
+    margin: 0 auto;
+    @media screen and (max-width: $mobileViewBreakout) {
+      flex-direction: column;
+    }
+  }
+
+  &__heading {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 0px auto 128px;
+    @media screen and (max-width: $mobileViewBreakout) {
+      margin: 0 auto 64px;
+    }
+  }
+
+  &__knowSomething ul li::marker {
+    content: "\2713";
+  }
+
+  &__secondHeading {
+    text-align: center;
+  }
+
+  ul {
+    padding-inline-start: 12px;
+  }
+
+  ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    list-style: none;
+    padding-left: 16px;
+  }
+
+  &__workingKonwledge ul li::marker {
+    content: "\2713 ";
+    color: $green;
+  }
+
+  &__wantLearn ul li::marker {
+    content: "\00B7";
+  }
+}
