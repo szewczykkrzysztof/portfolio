@@ -4,7 +4,7 @@
 
 @import "./modules/hello.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&Roboto+Mono:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&Roboto+Mono:wght@400;700&display=swap");
 
 html {
   box-sizing: border-box;
@@ -114,6 +114,9 @@ body {
     a {
       color: $linkColor;
       font-weight: bold;
+      @media screen and (max-width: $mobileViewBreakout) {
+        text-decoration: none;
+      }
     }
   }
   &__photo {
