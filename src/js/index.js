@@ -24,13 +24,13 @@ fetch("https://api.github.com/users/szewczykkrzysztof/repos?sort=created")
     />
     <img src="./Github-Icon.svg" />
     <div class="githubProject__grid">
-      <span>project:</span>
-      <span class="githubProject__name">${name}</span>
-      <span>description:</span>
+      <p class="githubProject__label">project:</p>
+      <h3 class="githubProject__name">${name}</h3>
+      <p class="githubProject__label">description:</p>
       <span>${description}</span>
-      <span>demo:</span>
+      <p class="githubProject__label">demo:</p>
       <a href=${homepage}>&#60 see here &#62</see></a>
-      <span>github:</span>
+      <p class="githubProject__label">github:</p>
       <a href=${html_url}>&#60 source code &#62</a>
     </div>
   </div>`;
