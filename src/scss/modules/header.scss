@@ -1,6 +1,9 @@
 .header {
   margin: 64px 16px 88px;
-
+  @media screen and (min-width: $tabletViewBreakout) {
+    max-width: 768px;
+    margin: 80px auto 176px;
+  }
   @media screen and (min-width: $desktopViewBreakout) {
     margin: 80px auto 176px;
     max-width: 982px;
