@@ -53,7 +53,7 @@ footer {
   font-weight: 300;
   font-size: 20px;
   padding: 80px 16px 176px;
-  @media screen and (max-width: $mobileViewBreakout) {
+  @media screen and (max-width: $desktopViewBreakout) {
     font-size: 16px;
     line-height: 32px;
     padding: 64px 16px 88px;
@@ -61,7 +61,7 @@ footer {
   h1 {
     margin: 0 auto 40px;
     font-size: 48px;
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       font-size: 36px;
     }
   }
@@ -74,7 +74,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media screen and (max-width: $mobileViewBreakout) {
+  @media screen and (max-width: $desktopViewBreakout) {
     height: 160px;
     flex-direction: column;
     margin: 56px auto 0;

@@ -1,7 +1,7 @@
 .header {
   margin: 64px 16px 88px;
 
-  @media screen and (min-width: $mobileViewBreakout) {
+  @media screen and (min-width: $desktopViewBreakout) {
     margin: 80px auto 176px;
     max-width: 982px;
   }
@@ -25,7 +25,7 @@
   }
 
   &__description {
-    @media screen and (min-width: $mobileViewBreakout) {
+    @media screen and (min-width: $desktopViewBreakout) {
       display: grid;
       grid-template-columns: 1fr auto 1fr;
       grid-template-rows: auto auto;
@@ -42,21 +42,21 @@
   }
 
   &__graphics {
-    @media screen and (min-width: $mobileViewBreakout) {
+    @media screen and (min-width: $desktopViewBreakout) {
       display: grid;
       grid-template-columns: 1fr 298px 1fr;
     }
   }
 
   &__hello {
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       display: none;
     }
     grid-column-start: 3;
   }
 
   &__mainHeading {
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       font-size: 26px;
       line-height: 32px;
       margin-bottom: 16px;
@@ -81,7 +81,7 @@
     margin: 50px 0 72px;
     border: 24px solid $blueLightest;
     border-radius: 50%;
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       width: 96px;
       height: 96px;
       display: block;
@@ -98,7 +98,7 @@
   }
 
   &__welcome {
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       font-size: 16px;
       line-height: 32px;
     }
@@ -113,7 +113,7 @@
     a {
       color: $linkColor;
       font-weight: bold;
-      @media screen and (max-width: $mobileViewBreakout) {
+      @media screen and (max-width: $desktopViewBreakout) {
         text-decoration: none;
       }
     }

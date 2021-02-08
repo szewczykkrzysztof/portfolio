@@ -3,7 +3,7 @@
   color: white;
   width: 100%;
   padding: 80px 128px 176px;
-  @media screen and (max-width: $mobileViewBreakout) {
+  @media screen and (max-width: $desktopViewBreakout) {
     padding: 64px 16px 88px;
   }
 
@@ -24,7 +24,7 @@
     max-width: 1184px;
     width: 100%;
     margin: 0 auto;
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       flex-direction: column;
       max-width: 288px;
     }
@@ -37,7 +37,7 @@
     font-size: 48px;
     line-height: 56px;
     margin: 0px auto 64px;
-    @media screen and (max-width: $mobileViewBreakout) {
+    @media screen and (max-width: $desktopViewBreakout) {
       margin: 0 auto 0;
     }
   }
