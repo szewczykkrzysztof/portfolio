@@ -10,7 +10,7 @@ fetch("https://api.github.com/users/szewczykkrzysztof/repos?sort=created")
     for (let repository of resp) {
       // destructuring from object respository and extract properties
       let { name, html_url, homepage, description } = repository;
-      //   if homepage doesn't exist link it to github project
+      //   if homepage doesn't exist link it to github project repository
       if (homepage) {
       } else {
         homepage = html_url;
@@ -36,4 +36,4 @@ fetch("https://api.github.com/users/szewczykkrzysztof/repos?sort=created")
   </div>`;
     }
   })
-  .catch(console.error("Błąd w pobieraniu danych z API Github"));
+  .catch(error => console.error("Błąd w pobieraniu danych z API Github"));
