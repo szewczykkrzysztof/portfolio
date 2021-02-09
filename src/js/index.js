@@ -36,4 +36,4 @@ fetch("https://api.github.com/users/szewczykkrzysztof/repos?sort=created")
   </div>`;
     }
   })
-  .catch(error => console.error("Błąd w pobieraniu danych z API Github"));
+  .catch((error) => console.log("Błąd w pobieraniu danych z API Github"));
